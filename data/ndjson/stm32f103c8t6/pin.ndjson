@@ -1,0 +1,5 @@
+{"device":"adc-pa0","pinned":false}
+{"device":"i2c-1","pinned":false}
+{"device":"stm32-01","pinned":false}
+{"device":"soil_adc_pa0","pinned":false}
+{"device":"aht30_i2c1","pinned":false}

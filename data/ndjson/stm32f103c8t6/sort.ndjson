@@ -1,0 +1,5 @@
+{"device":"adc-pa0","order":9999}
+{"device":"i2c-1","order":9999}
+{"device":"stm32-01","order":9999}
+{"device":"soil_adc_pa0","order":9999}
+{"device":"aht30_i2c1","order":9999}
