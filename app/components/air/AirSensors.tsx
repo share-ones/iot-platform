@@ -44,6 +44,7 @@ export default function AirSensors() {
 
               <div className="mt-2">🌡 温度：{data.temperature} ℃</div>
               <div>💧 湿度：{data.humidity} %</div>
+              
 
               <DeviceActions
                 device={data.device}

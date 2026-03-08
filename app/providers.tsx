@@ -13,7 +13,7 @@ export default function Providers({
 
 "use client";
 
-import { SessionProvider } from "next-auth/react";
+//import { SessionProvider } from "next-auth/react";
 import { SearchProvider } from "@/app/components/search/SearchContext";
 
 export default function Providers({
@@ -22,10 +22,10 @@ export default function Providers({
   children: React.ReactNode;
 }) {
   return (
-    <SessionProvider>
+    
       <SearchProvider>
         {children}
       </SearchProvider>
-    </SessionProvider>
+    
   );
 }

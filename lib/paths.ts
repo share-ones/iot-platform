@@ -1,4 +1,5 @@
 //C:\Users\one\Documents\neww\lib\paths.ts
+import { lightningCssTransform } from "next/dist/build/swc/generated-native";
 import path from "path";
 
 export const DATA_ROOT = path.join(process.cwd(), "data");
@@ -7,6 +8,7 @@ export const PATHS = {
   live: {
     root: path.join(DATA_ROOT, "live"),
     air: path.join(DATA_ROOT, "live", "air"),
+    light: path.join(DATA_ROOT, "live", "light"),
       "stm32f103c8t6-01": path.join(DATA_ROOT, "live", "stm32f103c8t6-01"),
     soil: path.join(DATA_ROOT, "live", "soil"),
     relay: path.join(DATA_ROOT, "live", "relay"),
@@ -14,6 +16,7 @@ export const PATHS = {
   archive: {
     root: path.join(DATA_ROOT, "archive"),
     air: path.join(DATA_ROOT, "archive", "air"),
+    light: path.join(DATA_ROOT, "archive", "light"),
     soil: path.join(DATA_ROOT, "archive", "soil"),
     relay: path.join(DATA_ROOT, "archive", "relay"),
       "stm32f103c8t6-01": path.join(DATA_ROOT, "archive", "stm32f103c8t6-01"),

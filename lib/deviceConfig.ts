@@ -1,6 +1,6 @@
 // lib/deviceConfig.ts
 
-export type DeviceKind = "air" | "stm32f103c8t6-01" | "soil" | "relay";
+export type DeviceKind = "air" | "light" | "stm32f103c8t6-01" | "soil" | "relay";
 
 export type DeviceStatusConfig = {
   offlineAfterMs: number;

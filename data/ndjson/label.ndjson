@@ -1,6 +1,6 @@
 {"kind":"air","device":"esp01-aht30-0","label":"南棚东边"}
-{"device":"esp01-aht30-1","label":"北棚中间"}
+{"device":"esp01-aht30-1","label":"北棚东边"}
 {"device":"esp01-aht30-2","label":"南棚中间"}
-{"device":"esp01-aht30-6","label":"北棚西边"}
-{"device":"esp01-aht30-3","label":"北棚东边"}
+{"device":"esp01-aht30-6","label":"北棚中间"}
+{"device":"esp01-aht30-3","label":"北棚西边"}
 {"device":"esp01-aht30-4","label":"南棚西边"}

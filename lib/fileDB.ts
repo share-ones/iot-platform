@@ -2,7 +2,7 @@
 import fs from "fs";
 import { PATHS } from "./paths";
 
-export type Kind = "air" | "soil" | "relay" |"stm32f103c8t6-01";
+export type Kind = "air" | "soil" | "light" | "relay" |"stm32f103c8t6-01";
 
 export function getLiveDir(kind: Kind) {
   return PATHS.live[kind];
